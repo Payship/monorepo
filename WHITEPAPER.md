@@ -76,15 +76,15 @@ The basic principles that Payship operates on can be divided into three models: 
 
 0. Total PSHP supply will be no more than 21,000,000 tokens.
 
-1. **Phase 0 – ILO:** 110,000 PSHP (0.52%) tokens are minted at the inception of Payship. 100,000 tokens are supplied to the Uniswap pool. 10,000 tokens are kept for project marekting & development. There is no presale.
+1. **Phase 0 – ILO:** 11,000 PSHP (0.52%) tokens are minted at the inception of Payship. 10,000 tokens are supplied to the Uniswap pool. 1,000 tokens are kept for project marekting & development. There is no presale.
 
-2. **Phase 1 – Pilot:** 110,000 PSHP (0.52%) tokens are minted at the pilot launch of Payship to be distributed among wallets that connect to Payship and become active participants of lending and borrowing, at a rate of 1,000 PSHP per day, proportionate to each wallet holdings: 
+2. **Phase 1 – Pilot:** 11,000 PSHP (0.52%) tokens are minted at the pilot launch of Payship to be distributed among wallets that connect to Payship and become active participants of lending and borrowing, at a rate of 100 PSHP per day, proportionate to each wallet holdings: 
 ```
 [wallet deposits + wallet borrows] / [total deposits + total borrows]
 ```
-10,000 tokens are kept for team reserve. Thus the pilot will last a minimum of 100 days.
+1,000 tokens are kept for team reserve. Thus the pilot will last a minimum of 100 days.
 
-3. **Phase 2 – Soft Launch:** Variable amount of PSHP tokens are minted per day starting from the soft launch of Payship. A minimum of 1,000 PSHP are minted per day to distribute among lenders and borrowers, like in Phase 1. However, every wallet that decides to stake PSHP in the Payship staking pool will receive daily PSHP proportional to its stake and daily Payship income: 
+3. **Phase 2 – Soft Launch:** Variable amount of PSHP tokens are minted per day starting from the soft launch of Payship. A minimum of 100 PSHP are minted per day to distribute among lenders and borrowers, like in Phase 1. However, every wallet that decides to stake PSHP in the Payship staking pool will receive daily PSHP proportional to its stake and daily Payship income: 
 ```
 [50% of Payship daily income denominated in PSHP] * [wallet PSHP staked] * [wallet deposits + wallet borrows] / [total deposits + total borrows] * [total PSHP staked]
 ```
