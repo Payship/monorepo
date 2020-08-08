@@ -76,9 +76,9 @@ The basic principles that Payship operates on can be divided into three models: 
 
 0. Total PSHP supply will be no more than 21,000,000 tokens.
 
-1. **Phase 0 – ILO:** 11,000 PSHP (0.52%) tokens are minted at the inception of Payship. 10,000 tokens are supplied to the Uniswap pool. 1,000 tokens are kept for project marekting & development. There is no presale.
+1. **Phase 0 – ILO:** 11,000 PSHP (0.052%) tokens are minted at the inception of Payship. 10,000 tokens are supplied to the Uniswap pool. 1,000 tokens are kept for project marekting & development. There is no presale.
 
-2. **Phase 1 – Pilot:** 11,000 PSHP (0.52%) tokens are minted at the pilot launch of Payship to be distributed among wallets that connect to Payship and become active participants of lending and borrowing, at a rate of 100 PSHP per day, proportionate to each wallet holdings: 
+2. **Phase 1 – Pilot:** 11,000 PSHP (0.052%) tokens are minted at the pilot launch of Payship to be distributed among wallets that connect to Payship and become active participants of lending and borrowing, at a rate of 100 PSHP per day, proportionate to each wallet holdings: 
 ```
 [wallet deposits + wallet borrows] / [total deposits + total borrows]
 ```
