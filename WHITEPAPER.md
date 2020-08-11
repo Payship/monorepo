@@ -38,12 +38,16 @@ The basic principles that Payship operates on can be divided into three models: 
 
    - **Stability Factor.** This percentage defines token volatility calculated as: 
      ```
-     100 - ([token's last 30 days % change] + [token's last 90 days % change] + [token's last 180 days % change]) / 3
+           [token's last 30 days % change] + [token's last 90 days % change] + [token's last 180 days % change]
+     100 - ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                                                           3
      ```
 
    - **Volume Factor.** This percentage defines token popularity in the ERC20 ecosystem and is calculated as:
      ```
-     100 * [token's average daily volume across last 90 days] / [average daily total volume across all ERC20 tokens in last 90 days]
+           100 * [token's average daily volume across last 90 days]
+     ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     [average daily total volume across all ERC20 tokens in last 90 days]
      ```
 
    - **Collateral Factor.** This percentage defines token borrowing power calculated as:
@@ -59,11 +63,21 @@ The basic principles that Payship operates on can be divided into three models: 
    
    - **Token Borrow Interest Rate**. Utilization is calculated as: 
      ```
-     [tokens in borrows] / ([tokens in borrows] + [tokens in deposits])
+                 [tokens in borrows]
+     ––––––––––––––––––––––––––––––––––––––––––––
+     ([tokens in borrows] + [tokens in deposits])
      ```
      Utilization percentage is then applied to the rate curve: if utilization is lower than token collateral factor, interest rate is: 
      ```
-     [utilization] / (2 * [Stability Factor])`, otherwise it is: `[utilization] / [Stability Factor]
+          [utilization]
+     ––––––––––––––––––––––––
+     (2 * [Stability Factor])
+     ```
+     otherwise it is: 
+     ```
+        [utilization]
+     ––––––––––––––––––
+     [Stability Factor]
      ```
 
 4. **All ERC20 token deposits are insured towards lenders via the PSD stablecoin.** The initial supply of PSD will be 100,000,000 tokens with a possibility to mint more.
@@ -80,13 +94,17 @@ The basic principles that Payship operates on can be divided into three models: 
 
 2. **Phase 1 – Pilot:** 11,000 PSHP (0.052%) tokens are minted at the pilot launch of Payship to be distributed among wallets that connect to Payship and become active participants of lending and borrowing, at a rate of 100 PSHP per day, proportionate to each wallet holdings: 
 ```
-[wallet deposits + wallet borrows] / [total deposits + total borrows]
+[wallet deposits + wallet borrows]
+––––––––––––––––––––––––––––––––––
+ [total deposits + total borrows]
 ```
 1,000 tokens are kept for team reserve. Thus the pilot will last a minimum of 100 days.
 
 3. **Phase 2 – Soft Launch:** Variable amount of PSHP tokens are minted per day starting from the soft launch of Payship. A minimum of 100 PSHP are minted per day to distribute among lenders and borrowers, like in Phase 1. However, every wallet that decides to stake PSHP in the Payship staking pool will receive daily PSHP proportional to its stake and daily Payship income: 
 ```
-[50% of Payship daily income denominated in PSHP] * [wallet PSHP staked] * [wallet deposits + wallet borrows] / [total deposits + total borrows] * [total PSHP staked]
+[50% of Payship daily income denominated in PSHP] * [wallet PSHP staked] * [wallet deposits + wallet borrows]
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+                          [total deposits + total borrows] * [total PSHP staked]
 ```
 
 ### Systems Model
