@@ -96,7 +96,7 @@ The basic principles that Payship operates on can be divided into three models: 
   - 4,000 PSHP tokens are offered in a 7 day presale starting on Oct 12, 2020 with a starting price of 0.25 ETH per 1 PSHP.
   - 2,000 PSHP tokens are reserved for DEX and/or CEX release. The first DEX launch will happen on Uniswap with a starting price of 0.4 ETH.
   - 2,000 PSHP tokens are reserved for the team and locked after the presale for at least 6 months.
-  - 1,000 PSHP tokens are reserved for advisers, promotions and marketing.
+  - 2,000 PSHP tokens are reserved for advisers, promotions and marketing.
 
 2. **Phase 1 – Pilot:** 100% of Payship daily income denominated in PSD since the pilot launch of Payship will be distributed among wallets that connect to Payship and become active participants of lending and borrowing, proportionate to each wallet holdings: 
 ```
