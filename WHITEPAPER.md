@@ -93,7 +93,7 @@ The basic principles that Payship operates on can be divided into three models: 
 1. **Phase 0 – ILO:** 11,000 PSHP tokens are minted at the inception of Payship, with the following distribution:
   
   - 1,000 PSHP tokens are given away proportionally to the top 32 SwapShip (SWSH) holders based on an Oct 10, 2020 snapshot.
-  - 4,000 PSHP tokens are offered in a 7 day presale starting on Oct 12, 2020 with a starting price of 0.25 ETH per 1 PSHP.
+  - 4,000 PSHP tokens are offered in a 5 day presale starting on Oct 12, 2020 with a starting price of 0.25 ETH per 1 PSHP.
   - 2,000 PSHP tokens are reserved for DEX and/or CEX release. The first DEX launch will happen on Uniswap with a starting price of 0.4 ETH.
   - 2,000 PSHP tokens are reserved for the team and locked after the presale for at least 6 months.
   - 2,000 PSHP tokens are reserved for advisers, promotions and marketing.
