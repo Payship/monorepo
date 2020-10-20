@@ -4,7 +4,7 @@
 
 ### Abstract
 
-Payship is a major step forward in **crypto lending**: Deposit any ERC20 token. Use any ERC20 token as collateral. Earn interest on any deposit. Borrow any ERC20 token. Earn PSHP on deposits and borrows. Stake PSHP to earn a portion of Payship income. Vote with PSHP on Payship future.
+Payship is a major step forward in **crypto lending**: Deposit any ERC20 token. Use any ERC20 token as collateral. Earn interest on any deposit. Borrow any ERC20 token. Stake PSHP to earn a portion of Payship income. Vote with PSHP on Payship future.
 
 Payship is a major step forward in **lending economics**: Collateral factors and interest rates of deposits and borrows are re-calculated once a day based on the performance of the entire Ethereum ERC20 token ecosystem. 
 
