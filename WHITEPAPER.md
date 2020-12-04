@@ -10,7 +10,7 @@ Payship is a major step forward in **lending economics**: Collateral factors and
 
 Payship is a major step forward in **borrower protection**: Every rate has a 24-hour guarantee through the single re-calculation once a day. Every borrower found under liquidation after the re-calculation has 24 hours to fix the position before being liquidated on the next re-calculation. Off-chain Systems Model (refer to the section below) enables automatic borrower protection from liquidation in case of a price increase on a borrowed asset or price decrease on a collateral: in case of a borrower going below the liquidation threshold, Payship can automatically and for free repay a portion of the loan using the collateral.
 
-Payship is a major step forward in **lender protection**: Upon every deposit the lender instantly receives back to the wallet the equivalent value in Payship platform ERC20 stablecoin, the PSD (Payship Dollar). The PSD is unique because while it aims to maintain a peg to the dollar on the open market, within the Payship platform it maintains a peg to each lender's deposit. It means within the Payship platform the value of PSD will be different for each lender. This also means that the lender has a choice in the event the deposit value changes due to price fluctuations of the underlying token: use the initial deposit value denominated in PSD in the lender's wallet and forego the original token, or swap PSD and take the original token out.
+Payship is a major step forward in **lender protection**: Upon every deposit the lender instantly receives back to the wallet the equivalent value in Payship platform ERC20 stablecoin, the PSD (Payship Standard Denominator). The PSD is unique because while it aims to maintain a peg to the dollar on the open market, within the Payship platform it maintains a peg to each lender's deposit. It means within the Payship platform the value of PSD will be different for each lender. This also means that the lender has a choice in the event the deposit value changes due to price fluctuations of the underlying token: use the initial deposit value denominated in PSD in the lender's wallet and forego the original token, or swap PSD and take the original token out.
 
 Payship is a major step forward in **gas costs**: Through native use of Ethereum blockchain transfers and smart off-chain transactions, Payship wants to ensure most interactions are free and on-chain deposits/withdraws cost no more than 0.002 ETH ($0.64 @ $320 / ETH).
 
@@ -93,7 +93,7 @@ The basic principles that Payship operates on can be divided into three models: 
 1. **Phase 0 – ILO:** 11,000 PSHP tokens are minted at the inception of Payship, with the following distribution:
   
   - 1,000 PSHP tokens are given away proportionally to the top 32 SwapShip (SWSH) holders based on an Oct 10, 2020 snapshot.
-  - 4,000 PSHP tokens are offered in a 5 day presale starting on Oct 12, 2020 with a starting price of 0.25 ETH per 1 PSHP.
+  - 4,000 PSHP tokens are offered in a 7 day presale starting on Oct 12, 2020 with a starting price of 0.25 ETH per 1 PSHP.
   - 2,000 PSHP tokens are reserved for DEX and/or CEX release. The first DEX launch will happen on Uniswap with a starting price of 0.4 ETH.
   - 2,000 PSHP tokens are reserved for the team and locked after the presale for at least 6 months.
   - 2,000 PSHP tokens are reserved for advisers, promotions and marketing.
@@ -134,3 +134,7 @@ Payship offers a uniquely open, decentralized and autonomous organization on the
 Payship gives the whole ERC20 ecosystem the ability to obtain additional capital from collateral, with significantly smaller transaction costs than existing platforms.
 
 Payship is a Decentralized interest rate policy. Payship is an Autonomous economy model. Payship is an Organization of stakeholders. Payship is DAO. Welcome to Payship.org
+
+## Further Reading
+
+1. [Appendix 1: PSD](https://github.com/Payship/monorepo/blob/master/APPENDIX-1-PSD.md)
